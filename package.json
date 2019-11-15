@@ -1,4 +1,10 @@
 {
   "name": "function-1",
-  "version": "0.0.2"
+  "version": "0.0.2",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
 }
