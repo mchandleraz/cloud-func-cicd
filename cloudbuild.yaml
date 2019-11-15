@@ -6,5 +6,5 @@ steps:
   args: ['test']
   dir: 'functions/autodeploy'
 - name: 'gcr.io/cloud-builders/gcloud'
-  args: ['functions', 'deploy', 'function-1', '--trigger-http', '--runtime', 'nodejs10', '--entry-point', 'index']
+  args: ['functions', 'deploy', 'function-1', '--trigger-http', '--runtime', 'nodejs10']
   dir: 'functions/autodeploy'
