@@ -10,5 +10,5 @@ const constants = {
 exports.constants = constants;
 exports.helloWorld = (req, res) => {
   let message = req.query.message || req.body.message || constants.DEFAULT_MESSAGE;
-  res.status(200).send('fuck continuous deployment.');
+  res.status(200).send(message);
 };
